@@ -14,7 +14,7 @@ font-family: "Gotham Rounded";
 .header_wrapper{
     display: flex;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 38px;
 }
 .navigation{
     max-width: 765px;
