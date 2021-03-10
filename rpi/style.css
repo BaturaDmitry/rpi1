@@ -78,9 +78,6 @@ font-family: "Gotham Rounded";
     font-size: 12px;
     font-weight: bold;
 }
-.section-main_content-btn:hover {
-    background: rgb(7, 137, 170);
-  }
 .section-main_content-btn:active {
     top: 1px;
     background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
@@ -89,43 +86,10 @@ font-family: "Gotham Rounded";
      0 2px 3px rgba(0,0,0,.5) inset,
      0 1px 1px rgba(255,255,255,.1);
   }
-  .section-mainsecond_btn:hover {
+  .section_download_applestore_btn:hover,.section_download_playstore_btn:hover,.section-mainsecond_wrapper2part_btn:hover, .section-mainsecond_btn:hover,.section-main_content-btn:hover,.section-main_content-btn:hover {
     background: rgb(7, 137, 170);
   }
-.section-mainsecond_btn:active {
-    top: 1px;
-    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
-    box-shadow:
-     0 0 1px rgba(0,0,0,.5) inset,
-     0 2px 3px rgba(0,0,0,.5) inset,
-     0 1px 1px rgba(255,255,255,.1);
-  }
-  .section-mainsecond_wrapper2part_btn:hover {
-    background: rgb(7, 137, 170);
-  }
-.section-mainsecond_wrapper2part_btn:active {
-    top: 1px;
-    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
-    box-shadow:
-     0 0 1px rgba(0,0,0,.5) inset,
-     0 2px 3px rgba(0,0,0,.5) inset,
-     0 1px 1px rgba(255,255,255,.1);
-  }
-  .section_download_applestore_btn:hover {
-    background: rgb(7, 137, 170);
-  }
-.section_download_applestore_btn:active {
-    top: 1px;
-    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
-    box-shadow:
-     0 0 1px rgba(0,0,0,.5) inset,
-     0 2px 3px rgba(0,0,0,.5) inset,
-     0 1px 1px rgba(255,255,255,.1);
-  }
-  .section_download_playstore_btn:hover {
-    background: rgb(7, 137, 170);
-  }
-.section_download_playstore_btn:active {
+.section_download_applestore_btn:active,.section_download_playstore_btn:active,.section-mainsecond_wrapper2part_btn:active,.section-mainsecond_btn:active,.section-main_content-btn:active {
     top: 1px;
     background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
     box-shadow:
@@ -505,11 +469,8 @@ input::-webkit-input-placeholder { color: black;
 .navigationfooter_itemword3{
     padding-left: 10px;
 }
-.navigationfooter_itemsslash1{
+.navigationfooter_itemsslash1,.navigationfooter_itemsslash2{
    color: #16a085;
-}
-.navigationfooter_itemsslash2{
-    color: #16a085;
 }
 
 .footerwrapper{
@@ -529,17 +490,10 @@ input::-webkit-input-placeholder { color: black;
     position:absolute;
     right: 128px;
 }
-.section_downloadapplestoreicon_btn:active {
+.section_downloadapplestoreicon_btn:active,.section_downloadplaystoreicon_btn:active {
     background: grey;
 }
-.section_downloadplaystoreicon_btn:active {
-    background: grey;
-}
-.section_downloadapplestoreicon_btn:hover {
-    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
-    color: black;
-}
-.section_downloadplaystoreicon_btn:hover {
+.section_downloadapplestoreicon_btn:hover,.section_downloadplaystoreicon_btn:hover {
     box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
     color: black;
 }
@@ -549,32 +503,19 @@ input::-webkit-input-placeholder { color: black;
 .navigation_item:hover{
 text-decoration: underline;
 }
-.navigationfooter_itemword1:hover {
+.navigationfooter_itemword1:hover, .navigationfooter_itemword2:hover,  .navigationfooter_itemword3:hover{
     color: #2EE59D;
     transform: translateY(-7px);
   }
-  .navigationfooter_itemword2:hover{
-    color: #2EE59D;
-    transform: translateY(-7px); 
-  }
-  .navigationfooter_itemword3:hover{
-    color: #2EE59D;
-    transform: translateY(-7px);
-  }
+
 a.section-main_social-icoflicker:hover{
     color: black;
     transform: translateY(-7px);
  }
- .leftarrow:hover{
+ .leftarrow:hover,.rightarrow:hover{
     background: grey;
  }
- .rightarrow:hover{
-    background: grey;
- }
- .section_ourcomminuty_leftarrow:hover{
-    background: grey;
- }
- .section_ourcomminuty_rightarrow:hover{
+ .section_ourcomminuty_leftarrow:hover,.section_ourcomminuty_rightarrow:hover{
     background: grey;
  }
  .section_subscribetous_btn:hover{
@@ -584,12 +525,7 @@ a.section-main_social-icoflicker:hover{
  .section_subscribetous_btn:active{
     background: grey;
 }
-.twitter:hover{
-    transform: translateY(-10px);
-}
-.flicker:hover{
-    transform: translateY(-10px);
-}
-.dribble:hover{
+
+.twitter:hover,.flicker:hover,.dribble:hover{
     transform: translateY(-10px);
 }
