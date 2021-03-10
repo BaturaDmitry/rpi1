@@ -584,9 +584,6 @@ a.section-main_social-icoflicker:hover{
  .section_subscribetous_btn:active{
     background: grey;
 }
-.section-main_social-icodribble:hover{
-    transform: translateY(-7px);
-}
 .twitter:hover{
     transform: translateY(-10px);
 }
