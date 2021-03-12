@@ -507,11 +507,6 @@ text-decoration: underline;
     color: #2EE59D;
     transform: translateY(-7px);
   }
-
-a.section-main_social-icoflicker:hover{
-    color: black;
-    transform: translateY(-7px);
- }
  .leftarrow:hover,.rightarrow:hover{
     background: grey;
  }
